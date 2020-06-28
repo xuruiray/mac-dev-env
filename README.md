@@ -36,3 +36,8 @@ mac 开发环境快速配置
     ├── performance-zh.md
     └── xuruiray.github.io
 ```
+
+## system option
+* [enable root user](https://www.jianshu.com/p/f5e09261a064)
+* [disable sip](https://sspai.com/post/55066)
+* [change shell](https://www.jianshu.com/p/a5b07ec800c8)
