@@ -1,0 +1,51 @@
+# GO
+export GOROOT=/usr/local/go
+export GOPATH=/Users/xurui/Workspace/go_workspace
+export PATH=$PATH:$GOROOT/bin
+export PATH=$PATH:$GOPATH/bin
+
+# Java
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-14.jdk/Contents/Home
+
+# Python
+export PATH=/Library/Frameworks/Python.framework/Versions/3.7/bin:$PATH
+
+# Scala
+export PATH=$PATH:/Users/xurui/Workspace/environment/scala-2.13.1/bin
+
+#Maven
+export MAVEN_HOME=/Users/xurui/Workspace/environment/apache-maven-3.6.3
+export PATH=$PATH:$MAVEN_HOME/bin
+
+# Redis
+export PATH=$PATH:/Users/xurui/Workspace/environment/redis-5.0.8/bin
+
+# MySQL
+#PATH=$PATH:/usr/local/mysql/bin
+export PATH=$PATH:/Users/xurui/Workspace/environment/mysql-8.0.20-macos10.15-x86_64/bin
+
+# alias
+alias ll='ls -lha'
+alias redis-server='redis-server /Users/xurui/Workspace/environment/redis-5.0.8/redis.conf'
+
+# application
+alias code='open -a Visual\ Studio\ Code'
+
+# shortcut
+alias cdw='cd /Users/xurui/Workspace'
+alias cdg='cd /Users/xurui/Workspace/go_workspace'
+alias cdj='cd /Users/xurui/Workspace/java_workspace'
+
+# Terms
+#enables colorin the terminal bash shell export
+export CLICOLOR=1
+#setsup thecolor scheme for list export
+export LSCOLORS=gxfxcxdxbxegedabagacad
+#sets up theprompt color (currently a green similar to linux terminal)
+export PS1='\[\033[01;32m\]\u\[\033[00m\]:\[\033[01;36m\]\W\[\033[00m\]\$ '
+#enables colorfor iTerm
+export TERM=xterm-256color
+
+# mac env
+export BASH_SILENCE_DEPRECATION_WARNING=1
+
